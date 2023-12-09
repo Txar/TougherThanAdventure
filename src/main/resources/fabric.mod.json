@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "tougher_than_adventure",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Tougher Than Adventure",
+  "description": "Lorem Ipsum.",
   "authors": [
-    "Turnip Labs"
+    "Txar"
   ],
   "contact": {
     "homepage": "",
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+        "txar.tougher_than_adventure.TougherThanAdventure"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+      "tougher_than_adventure.mixins.json"
   ],
 
   "depends": {
