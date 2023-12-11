@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "txar.tougher_than_nails.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockLogMixin",
+    "BlockTallGrassMixin",
+    "EntityPlayerMixin",
+    "GuiIngameMixin",
+    "ItemFoodMixin",
+    "ItemMixin",
+    "TougherCraftingManagerAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "tougher_than_adventure-refmap.json"
+}

@@ -22,7 +22,7 @@
     ]
   },
   "mixins": [
-      "tougher_than_adventure.mixins.json"
+    "tougher_than_nails.mixins.json"
   ],
 
   "depends": {
